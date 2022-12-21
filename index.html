@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+</head>
+<body>
+
+    <main class="main">
+        <div class="main__form">
+            <div class="form_aside">
+                <p class="aside_title">РАСЧЕТ БЛОЧНО-МОДУЛЬНЫХ ЗДАНИЙ</p>
+                <div class="aside_steps">
+                    <div class="step step1 active">
+                        <div class="num">1</div>
+                        <p class="title">Основные параметры здания</p>
+                    </div>
+                    <div class="step step2">
+                        <div class="num">2</div>
+                        <p class="title">Инженерное обеспечение здания</p>
+                    </div>
+                    <div class="step step3">
+                        <div class="num">3</div>
+                        <p class="title">Цветовая схема здания</p>
+                    </div>
+                    <div class="step step4">
+                        <div class="num">4</div>
+                        <p class="title">Монтаж</p>
+                    </div>
+                    <div class="step step5">
+                        <div class="num">5</div>
+                        <p class="title">Доставка</p>
+                    </div>
+                    <div class="step step6">
+                        <div class="num">6</div>
+                        <p class="title">Отправить заказ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form_content">
+                <div class="lines">
+                    <div class="line line1 active"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                    <div class="line line4"></div>
+                    <div class="line line5"></div>
+                    <div class="line line6"></div>
+                    <div class="line line7"></div>
+                    <div class="line line8"></div>
+                </div>
+                <div class="form_block form_block1 active" date-value="1">
+                    <p class="form_title">Основные параметры здания</p>
+                    <div class="wrap wrap_1">
+                        <p class="h5">1.  Назначение здания</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio" id="1">
+                                <label for="1">
+                                    <div class="label">
+                                        <p class="text">Жилое</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio" id="2">
+                                <label for="2">
+                                    <div class="label">
+                                        <p class="text">Административное</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio" id="3">
+                                <label for="3">
+                                    <div class="label">
+                                        <p class="text">Техническое</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio" id="4">
+                                <label for="4">
+                                    <div class="label">
+                                        <p class="text">Столовая / прачечная</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_2">
+                        <p class="h5">2. Количество размещаемых сотрудников</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="5">
+                                <label for="5">
+                                    <div class="label">
+                                        <p class="text">10-20</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="6">
+                                <label for="6">
+                                    <div class="label">
+                                        <p class="text">20-50</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="7">
+                                <label for="7">
+                                    <div class="label">
+                                        <p class="text">50-80</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="8">
+                                <label for="8">
+                                    <div class="label">
+                                        <p class="text">80-120</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="9">
+                                <label for="9">
+                                    <div class="label">
+                                        <p class="text">120-180</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio2" id="10">
+                                <label for="10">
+                                    <div class="label">
+                                        <p class="text">180-250</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_3">
+                        <p class="h5">3. Этажность</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio3" id="11">
+                                <label for="11">
+                                    <div class="label">
+                                        <p class="text">1</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio3" id="12">
+                                <label for="12">
+                                    <div class="label">
+                                        <p class="text">2</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio3" id="13">
+                                <label for="13">
+                                    <div class="label">
+                                        <p class="text">3</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_4">
+                        <p class="h5">4.  Возможность  разукомплектовать здание по этажам</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio4" id="14">
+                                <label for="14">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">Невозможно (дешевле) 
+                                            Межэтажная комбинированная 
+                                            рама пол/потолок</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio4" id="15">
+                                <label for="15">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">Возможно (дороже)
+                                            Изолированные этажи
+                                            (потолок и пол раздельно)</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_5">
+                        <p class="h5">5. Толщина утеплителя рам блок-модулей</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio5" id="16">
+                                <label for="16">
+                                    <div class="label">
+                                        <p class="text">100</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio5" id="17">
+                                <label for="17">
+                                    <div class="label">
+                                        <p class="text">150</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio5" id="18">
+                                <label for="18">
+                                    <div class="label">
+                                        <p class="text">200</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio5" id="19">
+                                <label for="19">
+                                    <div class="label">
+                                        <p class="text">250</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block2" date-value="2">
+                    <p class="form_title">Основные параметры здания</p>
+                    <div class="wrap wrap_6">
+                        <p class="h5">6. Толщина утеплителя стеновых сэндвич-панелей</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio6" id="20">
+                                <label for="20">
+                                    <div class="label">
+                                        <p class="text">100</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio6" id="21">
+                                <label for="21">
+                                    <div class="label">
+                                        <p class="text">150</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio6" id="22">
+                                <label for="22">
+                                    <div class="label">
+                                        <p class="text">200</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio6" id="23">
+                                <label for="23">
+                                    <div class="label">
+                                        <p class="text">250</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_7">
+                        <p class="h5">7. Система внутренних перегородок</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio7" id="24">
+                                <label for="24">
+                                    <div class="label">
+                                        <p class="text">Сэндвич-панель 50 мм</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio7" id="25">
+                                <label for="25">
+                                    <div class="label">
+                                        <p class="text">Сэндвич-панель 100 мм</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio7" id="254">
+                                <label for="254">
+                                    <div class="label">
+                                        <p class="text">Сэндвич-панель 150 мм</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio7" id="255">
+                                <label for="255">
+                                    <div class="label">
+                                        <p class="text">Каркасная система СМЛ «Криплат»</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_8">
+                        <p class="h5">8. Чистовая высота помещений</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio8" id="26">
+                                <label for="26">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">2300</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio8" id="27">
+                                <label for="27">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">2500</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio8" id="28">
+                                <label for="28">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">2700</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_9">
+                        <p class="h5">9.  Общая кровля здания</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio9" id="29">
+                                <label for="29">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio9" id="30">
+                                <label for="30">
+                                    <div class="img">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block3" date-value="3">
+                    <p class="form_title">Основные параметры здания</p>
+                    <div class="box">
+                        <div class="wrap wrap_10">
+                            <p class="h5">10. Наличие входных групп</p>
+                            <div class="img img2">
+                                <img src="" alt="">
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio10" id="31">
+                                <label for="31">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio10" id="32">
+                                <label for="32">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap wrap_11">
+                            <p class="h5">11. Наличие пандуса для МГН</p>
+                            <div class="img img2">
+                                <img src="" alt="">
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio11" id="33">
+                                <label for="33">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio11" id="34">
+                                <label for="34">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap wrap_12">
+                            <p class="h5">12. Наличие внутренних лестниц</p>
+                            <div class="img img2">
+                                <img src="" alt="">
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio12" id="35">
+                                <label for="35">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio12" id="36">
+                                <label for="36">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap wrap_13">
+                            <p class="h5">13. Наличие внешних лестниц</p>
+                            <div class="img img2">
+                                <img src="" alt="">
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio13" id="37">
+                                <label for="37">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio13" id="38">
+                                <label for="38">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block4" date-value="4">
+                    <p class="form_title">Инженерное обеспечение здания</p>
+                    <div class="wrap wrap_14">
+                        <p class="h5">14.  Система отопления</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio14" id="39">
+                                <label for="39">
+                                    <div class="label">
+                                        <p class="text">Электрические конвекторы</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio14" id="40">
+                                <label for="40">
+                                    <div class="label">
+                                        <p class="text">Центральная / котельная</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio14" id="41">
+                                <label for="41">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_15">
+                        <p class="h5">15. Система водоснабжения</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio15" id="42">
+                                <label for="42">
+                                    <div class="label">
+                                        <p class="text">Емкость с насосной группой
+                                            (включить в расчет)
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio15" id="43">
+                                <label for="43">
+                                    <div class="label">
+                                        <p class="text">Центральная / скважина</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio15" id="44">
+                                <label for="44">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_16">
+                        <p class="h5">16. Система электроснабжения</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio16" id="45">
+                                <label for="45">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio16" id="46">
+                                <label for="46">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_17">
+                        <p class="h5">17. Внешнее освещение входных групп</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio17" id="47">
+                                <label for="47">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio17" id="48">
+                                <label for="48">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block5" date-value="5">
+                    <p class="form_title">Инженерное обеспечение здания</p>
+                    <div class="wrap wrap_18">
+                        <p class="h5">18. Система охранной сигнализации</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio18" id="49">
+                                <label for="49">
+                                    <div class="label">
+                                        <p class="text">Автономная со светозвуковым извещателем</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio18" id="50">
+                                <label for="50">
+                                    <div class="label">
+                                        <p class="text">Адресная, с выводом сигнала на пульт</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio18" id="51">
+                                <label for="51">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_19">
+                        <p class="h5">19.  Система пожарной сигнализации (ПС), система оповещения и управления эвакуацией (СОУЭ)</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio19" id="52">
+                                <label for="52">
+                                    <div class="label">
+                                        <p class="text">Автономные пожарные извещатели
+                                            в каждом помещении</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio19" id="53">
+                                <label for="53">
+                                    <div class="label">
+                                        <p class="text">Адресная, с выводом сигнала на пульт</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio19" id="54">
+                                <label for="54">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_20">
+                        <p class="h5">20. Структурированные кабельные сети (СКС)</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio20" id="55">
+                                <label for="55">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio20" id="56">
+                                <label for="56">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_21">
+                        <p class="h5">21. Системы контроля и управления доступом (СКУД)</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio21" id="57">
+                                <label for="57">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio21" id="58">
+                                <label for="58">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block6" date-value="6">
+                    <p class="form_title">Цветовая схема здания</p>
+                    <div class="wrap wrap_22">
+                        <p class="h5">22.  Цветовая схема здания</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio22" id="59">
+                                <label for="59">
+                                    <div class="label">
+                                        <p class="text">Стандарт:</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio22" id="60">
+                                <label for="60">
+                                    <div class="label">
+                                        <p class="text">Индивидуально:</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio22" id="62">
+                                <label for="62">
+                                    <div class="label">
+                                        <p class="text">Бренд-бук Заказчика</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block7" date-value="7">
+                    <p class="form_title">Монтаж</p>
+                    <div class="wrap wrap_23">
+                        <p class="h5">23.  Монтаж</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio23" id="63">
+                                <label for="63">
+                                    <div class="label">
+                                        <p class="text">«Под ключ»</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio23" id="64">
+                                <label for="64">
+                                    <div class="label">
+                                        <p class="text">Шеф-монтаж</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio23" id="65">
+                                <label for="65">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_24">
+                        <p class="h5">24. Выполнение фундамента</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio24" id="66">
+                                <label for="66">
+                                    <div class="label">
+                                        <p class="text">Включить в расчет</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio24" id="67">
+                                <label for="67">
+                                    <div class="label">
+                                        <p class="text">Силами Заказчика</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_25">
+                        <p class="h5">25. Проживание / питание</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio25" id="68">
+                                <label for="68">
+                                    <div class="label">
+                                        <p class="text">Включить в расчет</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio25" id="69">
+                                <label for="69">
+                                    <div class="label">
+                                        <p class="text">За счет Заказчика</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_26">
+                        <p class="h5">26. Спецтехника</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio26" id="70">
+                                <label for="70">
+                                    <div class="label">
+                                        <p class="text">Включить в расчет</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio26" id="71">
+                                <label for="71">
+                                    <div class="label">
+                                        <p class="text">Предоставляет Заказчик</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block form_block8" date-value="8">
+                    <p class="form_title">Доставка</p>
+                    <div class="wrap wrap_27">
+                        <p class="h5">27.  Доставка</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio27" id="72">
+                                <label for="72">
+                                    <div class="label">
+                                        <p class="text">Силами Поставщика
+                                            (Блок-модули в положении ТРАНСПАК)</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio27" id="73">
+                                <label for="73">
+                                    <div class="label">
+                                        <p class="text">Силами Поставщика
+                                            (Сборным грузом)</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio27" id="75">
+                                <label for="75">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_28">
+                        <p class="h5">28. Требуется ли погрузка в морские контейнеры</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio28" id="76">
+                                <label for="76">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio28" id="77">
+                                <label for="77">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap wrap_29">
+                        <p class="h5">29. Требуется ли погрузка на ЖД</p>
+                        <div class="box">
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio29" id="78">
+                                <label for="78">
+                                    <div class="label">
+                                        <p class="text">Требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radio29" id="79">
+                                <label for="79">
+                                    <div class="label">
+                                        <p class="text">Не требуется</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_block_contacts form_block form_block9" date-value="9">
+                    <p class="form_title">Контакты</p>
+                    <div class="wrap">
+                        <div class="box">
+                            <div class="input_text">
+                                <input type="text" placeholder="Фамилия">
+                            </div>
+                            <div class="input_text">
+                                <input type="text" placeholder="Имя">
+                            </div>
+                            <div class="input_text">
+                                <input type="text" placeholder="Название компании">
+                            </div>
+                            <div class="input_text">
+                                <input type="text" placeholder="ИНН">
+                            </div>
+                            <div class="input_text">
+                                <input type="email" placeholder="e-mail *">
+                            </div>
+                            <div class="input_text">
+                                <input type="text" placeholder="+ 7 XXX XXX XX XX *">
+                            </div>
+                        </div>
+                        <div class="textarea">
+                            <textarea placeholder="Комментарий"></textarea>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="111">
+                            <label for="111">Нажимая на кнопку "Отправить", я даю согласие на <a href="#">обработку персональных</a> данных</label>
+                        </div>
+                    </div>
+                    <button class="btn">Отправить</button>
+                </div>
+                <div class="form_buttons">
+                    <button class="btn_prev none">Назад</button>
+                    <button class="btn_next">Далее</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

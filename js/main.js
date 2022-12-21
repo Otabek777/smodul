@@ -1,5 +1,5 @@
 $(".btn_next").click(function() {
-    var valattr = $(".form_block.active").attr('date-value');
+    var valattr = $(".form_block.active").attr('data-number');
     let num = Number(valattr);
     let blockNum = num+1;
     
@@ -43,7 +43,7 @@ $(".btn_next").click(function() {
 });
 
 $(".btn_prev").click(function() {
-    var valattr = $(".form_block.active").attr('date-value');
+    var valattr = $(".form_block.active").attr('data-number');
     let num = Number(valattr);
     let blockNum = num-1;
 

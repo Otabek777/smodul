@@ -270,6 +270,94 @@ ul, ol {
   display: none;
 }
 
+.wrap_22 .box_wrap {
+  max-width: 33%;
+  width: 100%;
+}
+.wrap_22 .box_wrap .radio_wrap {
+  width: 100%;
+}
+
+.box_wrap .left {
+  max-width: 195px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E1E1E;
+}
+.box_wrap .left p {
+  margin-top: 16px;
+}
+
+.box_wrap .center {
+  max-width: 214px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E1E1E;
+}
+.box_wrap .center h6 {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #1E1E1E;
+  margin-top: 16px;
+}
+.box_wrap .center .color {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn_color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100px;
+  width: 100%;
+  height: 27px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #999999;
+}
+
+.box_wrap .right {
+  padding-left: 24px;
+  padding-top: 16px;
+}
+.box_wrap .right a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #6E1717;
+}
+
 .radio_wrap {
   position: relative;
   margin-right: 50px;
@@ -584,6 +672,16 @@ ul, ol {
   }
   .form_content .wrap {
     margin: 0;
+  }
+  .wrap_22 .box_wrap {
+    max-width: 100%;
+  }
+  .box_wrap .left, .box_wrap .center {
+    margin-bottom: 32px;
+  }
+  .box_wrap .right {
+    padding-top: 0;
+    padding-bottom: 24px;
   }
   .input_text input {
     margin-bottom: 22px;
